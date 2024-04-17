@@ -30,3 +30,5 @@ Modify project configuration by adding a deep linking scheme in app config (app.
 
 EXPO app needed for (ios build):
 npx expo install expo-dev-client
+
+ES7+ Extension by dsznajder
