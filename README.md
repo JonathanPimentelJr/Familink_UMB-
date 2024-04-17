@@ -32,3 +32,8 @@ EXPO app needed for (ios build):
 npx expo install expo-dev-client
 
 ES7+ Extension by dsznajder
+
+Use Version 2 of NativeWind (Using Tailwind CSS)
+npm install nativewind
+npm install --save-dev tailwindcss@3.3.2
+npx tailwindcss init 
