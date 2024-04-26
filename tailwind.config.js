@@ -7,8 +7,8 @@ module.exports = {
         primary: "#1FD655",
         secondary: {
           DEFAULT: "#FF9C01",
-          100: "#FF9001",
-          200: "#FF8E01",
+          100: "#DFCAA0",
+          200: "#FFF",
         },
         black: {
           DEFAULT: "#000",
