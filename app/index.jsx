@@ -1,14 +1,28 @@
 import { StatusBar } from 'expo-status-bar';
-import {Text, View } from 'react-native';
+import { Text, ScrollView, View, StyleSheet, Image} from 'react-native';
 import {Link} from 'expo-router'
+//import * as d3 from "d3";
+
+const styles = StyleSheet.create({
+  background: {
+    backgroundColor: "#DBC9A3",
+  },
+  header: {
+    textAlign: 'center',
+    fontSize: 36,
+  },
+});
 
 export default function App() {
   return (
-    <View className="flex-1 items-center justify-center 
-    bg-white">
-      <Text className= "text-3xl font-pblack">Familink</Text>
-      <StatusBar style="auto" />
-      <Link href ="/home" style ={{color: 'blue'}}>Go to Home</Link>
+    <View style={styles.background}>
+      <Text style={styles.header}>Test Header</Text>
+      <ScrollView horizontal={true}>
+        <ScrollView>
+          <Image source={require('../assets/images/cards.png')}/>
+          <Link href ="/home" style ={{color: 'blue'}}>Go to Home</Link>
+        </ScrollView>
+      </ScrollView>
     </View>
   );
 }
