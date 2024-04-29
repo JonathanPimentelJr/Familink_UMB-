@@ -94,13 +94,6 @@ const Upload = () => {
       <ScrollView className="px-4 my-6">
         <Text className="text-2xl text-white font-psemibold">Upload Zup</Text>
 
-        <FormField
-          title="Video Title"
-          value={form.title}
-          placeholder="Give your video a catchy title..."
-          handleChangeText={(e) => setForm({ ...form, title: e })}
-          otherStyles="mt-10"
-        />
 
         <View className="mt-7 space-y-2">
           <Text className="text-base text-white font-pmedium">

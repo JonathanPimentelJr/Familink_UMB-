@@ -51,6 +51,6 @@ npx expo install react-native-appwrite react-native-url-polyfill
 Adding Logic using appwrite to add Databases, Storage, Functions 
 
 # Images files
-![activity UML ](image.png)
-
-![use case diagram](image-2.png)
+![logo](assets/images/horizontal-logo.png)
+![activity](assets/images/image.png)
+![use case diagram](assets/images/image-2.png)
