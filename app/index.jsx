@@ -38,11 +38,6 @@ export default function App() {
             handlePress={() => router.push("/scanner")}
             containerStyles="w-full mt-7"
           />
-          <CustomButton 
-            title="Build your Family Tree"
-            handlePress={() => router.push("/family-tree")}
-            containerStyles="w-full mt-7"
-          />
           
 
         </View>
