@@ -41,3 +41,16 @@ npx tailwindcss init
 Run on the app:
 npx expo start 
 npx expo start -c is for without caching 
+
+
+# Installing Appwrite
+appwrite is free, open-source application that allows users to customize their backend and functions on their web and mobile apps
+Quick Start guide: https://appwrite.io/docs/quick-starts/react-native
+# Install Command 
+npx expo install react-native-appwrite react-native-url-polyfill
+Adding Logic using appwrite to add Databases, Storage, Functions 
+
+# Images files
+![activity UML ](image.png)
+
+![use case diagram](image-2.png)
