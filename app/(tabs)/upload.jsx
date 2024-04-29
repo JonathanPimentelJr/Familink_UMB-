@@ -92,7 +92,7 @@ const Upload = () => {
   return (
     <SafeAreaView className="bg-[#00ab41] h-full">
       <ScrollView className="px-4 my-6">
-        <Text className="text-2xl text-white font-psemibold">Upload Video</Text>
+        <Text className="text-2xl text-white font-psemibold">Upload Zup</Text>
 
         <FormField
           title="Video Title"
