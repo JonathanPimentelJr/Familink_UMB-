@@ -3,11 +3,13 @@ import { useState } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { images } from '../../constants'
 import { Link, router } from 'expo-router'
-import { signIn } from '../../lib/appwrite'
+import { signIn, getCurrentUser } from '../../lib/appwrite'
 import  FormField  from '../../components/FormField'
 import CustomButton from '../../components/CustomButton'
+import { useGlobalContext } from "../../context/GlobalProvider";
 
 const LogIn = () => {
+  const { setUser, setIsLogged } = useGlobalContext();
   const [form, setForm] = useState({
     email: "",
     password: "",
@@ -24,8 +26,10 @@ const LogIn = () => {
 
     try {
       await signIn(form.email, form.password)
+      const result = await getCurrentUser();
       setUser(result);
       setIsLogged(true);
+      
       
       Alert.alert("Success", "Welcome back!");
       router.replace("/home");

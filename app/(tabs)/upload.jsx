@@ -96,9 +96,7 @@ const Upload = () => {
 
 
         <View className="mt-7 space-y-2">
-          <Text className="text-base text-white font-pmedium">
-            Upload Zup
-          </Text>
+          
 
           <TouchableOpacity onPress={() => openPicker("video")}>
             {form.video ? (
@@ -126,7 +124,7 @@ const Upload = () => {
 
         <View className="mt-7 space-y-2">
           <Text className="text-base text-gray-100 font-pmedium">
-            Thumbnail Image
+            Access documents from Gallery 
           </Text>
 
           <TouchableOpacity onPress={() => openPicker("image")}>
