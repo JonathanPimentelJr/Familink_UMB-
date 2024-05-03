@@ -14,7 +14,7 @@
     "expo-constants": "~15.4.6",
     "expo-dev-client": "~3.3.11",
     "expo-linking": "~6.2.2",
-    "expo-router": "~3.4.9",
+    "expo-router": "~3.4.10",
     "expo-status-bar": "~1.11.1",
     "express": "^4.19.2",
     "mongoos": "^0.0.1-security",
