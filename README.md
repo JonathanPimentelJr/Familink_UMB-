@@ -7,7 +7,7 @@ Familink is a multimodal app designed to build family trees and connect people t
 Our goal is to have an engaging user platform that allows the user to digitize their family genealogy by scanning their Zupus.
 
 # Zupu Exammple 
-(assets/Gallery/00001.jpg)
+![alt text](assets/Gallery/00003.jpg)
 
 # Tech Stack 
 In React-native, Metro is the javascript bundler for the app. Instead of using Xcode or emulators,  we used Expo instead having the development build running on our mobile devices.
