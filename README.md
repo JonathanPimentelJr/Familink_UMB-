@@ -14,6 +14,15 @@ In React-native, Metro is the javascript bundler for the app. Instead of using X
 We primarily focused on the frontend aspect of the app,  Expo Go is the mobile app used to do so 
 We opted to do manual testing, debugging and Expo would compile and run in real-time and send render/syntax/and logical errors immediately
 
+# React Native
+Fullstack development for all mobile app development using transpiling to automatically convert the code to native ios/android functionality
+
+# Expo
+Use development build instead of emulator build on Xcode
+
+# appwrite
+backend server  controlling the users and what files can be uploaded.
+
 # Required Installations for the project 
 download Node.Js: https://nodejs.org/en
 
@@ -41,6 +50,7 @@ Modify project configuration by adding a deep linking scheme in app config (app.
 EXPO app needed for (ios build):
 npx expo install expo-dev-client
 
+Helpful extension for Expo development 
 ES7+ Extension by dsznajder
 
 Use Version 2 of NativeWind (Using Tailwind CSS)
@@ -48,7 +58,7 @@ npm install nativewind
 npm install --save-dev tailwindcss@3.3.2
 npx tailwindcss init 
 
-Run on the app:
+Run the app:
 npx expo start 
 npx expo start -c is for without caching 
 
