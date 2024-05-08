@@ -1,11 +1,21 @@
-# Familink_UMB-
-Familink group project for CS 410. 
 
 # Familink UMass Boston Student Code Repository
+CS 410 Group 3 Project for Familink
+Group members: Jonathan Pimentel, Felix Daily, Kalyan Ram Mamidipaka, Raymond Dugas, Rock Pulak 
 
+Familink is a multimodal app designed to build family trees and connect people to their roots, extract relevant information from records and generate family narrative by capturing family stories in all forms, such as text, images and audio.
+Our goal is to have an engaging user platform that allows the user to digitize their family genealogy by scanning their Zupus.
 
-Required Installations for the project 
-Node.Js
+# Zupu Exammple 
+(assets/Gallery/00001.jpg)
+
+# Tech Stack 
+In React-native, Metro is the javascript bundler for the app. Instead of using Xcode or emulators,  we used Expo instead having the development build running on our mobile devices.
+We primarily focused on the frontend aspect of the app,  Expo Go is the mobile app used to do so 
+We opted to do manual testing, debugging and Expo would compile and run in real-time and send render/syntax/and logical errors immediately
+
+# Required Installations for the project 
+download Node.Js: https://nodejs.org/en
 
 Setup Project files
 npm create-expo-app ./    
@@ -46,6 +56,8 @@ npx expo start -c is for without caching
 # Installing Appwrite
 appwrite is free, open-source application that allows users to customize their backend and functions on their web and mobile apps
 Quick Start guide: https://appwrite.io/docs/quick-starts/react-native
+
+
 # Install Command 
 npx expo install react-native-appwrite react-native-url-polyfill
 Adding Logic using appwrite to add Databases, Storage, Functions 
@@ -54,3 +66,20 @@ Adding Logic using appwrite to add Databases, Storage, Functions
 ![logo](assets/images/horizontal-logo.png)
 ![activity](assets/images/image.png)
 ![use case diagram](assets/images/image-2.png)
+
+
+
+# Files 
+app folder contains two folders (auth) and (tabs) containing files for the login pages and tabs respectively.
+assets contains all images, fonts, icons and other assets used in the app. 
+constants imports all those assets to have them available in the app.
+components is a separate folder where components like our buttons, search bar, etc are stored.
+lib folder contains all backend logic and functions from appwrite. 
+
+# Sources 
+Documentation guide:
+https://guides.lib.berkeley.edu/how-to-write-good-documentation
+
+Expo Documents:
+https://docs.expo.dev/
+
