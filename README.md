@@ -6,7 +6,7 @@ Group members: Jonathan Pimentel, Felix Daily, Kalyan Ram Mamidipaka, Raymond Du
 Familink is a multimodal app designed to build family trees and connect people to their roots, extract relevant information from records and generate family narrative by capturing family stories in all forms, such as text, images and audio.
 Our goal is to have an engaging user platform that allows the user to digitize their family genealogy by scanning their Zupus.
 
-# Zupu Exammple 
+# Zupu Example 
 ![alt text](assets/Gallery/00003.jpg)
 
 # Tech Stack 
